@@ -30,7 +30,7 @@ public class GameScreen implements Screen {
         // т.е он идет из папки assets
         carTexture = new Texture(Gdx.files.internal("Car.png"));
         //объявляем экземпляр класса кар
-        car = new Car(carTexture,0,0,83,159);
+        car = new Car(carTexture,30,0,83,159);
     }
 
     @Override
